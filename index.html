@@ -1,90 +1,152 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<link href="common.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="javascript.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-center">
+				<div class="share">
+					<!-- Baidu Button BEGIN -->
+						<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+							<a class="bds_qzone"></a>
+							<a class="bds_tsina"></a>
+							<a class="bds_tqq"></a>
+							<a class="bds_renren"></a>
+						</div>
+						<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6862653" ></script>
+						<script type="text/javascript" id="bdshell_js"></script>
+						<script type="text/javascript">
+							document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+						</script>
+					<!-- Baidu Button END -->
+				</div>
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+				<div class="search">
+					<input type="text" class="search-text"/>
+					<input type="submit" class="search-button" value=""/>
+				</div>
+			</div>		
+		</div>
 
-  <title>Hopepine.github.io</title>
-  <meta name="description" content="blog">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-</head>
 
-<body>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Hopepine.github.io</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">blog</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/hopepine" class="code">View Hopepine.github.io on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+		
+		<!-- container begin-->
+		<div class="container">
+			<!-- list begin -->
+			<div class="catalogue">
+				<div class="head-image"><img src="images/head.jpg"/></div>
+				<div class="name">Arrogance</div>
+				<div class="list" id="list">
+					<ul>
+						<li><a href="#" class="list-selected">首&nbsp;页<i class="sign">&gt;</i></a></li>
+						<li><a href="#"><i class="sign">&gt;</i>留&nbsp;言</a></li>
+						<li><a href="#"><i class="sign">&gt;</i>日&nbsp;志</a></li>
+						<li><a href="#"><i class="sign">&gt;</i>分&nbsp;享</a></li>
+						<li><a href="#"><i class="sign">&gt;</i>影&nbsp;册</a></li>
+					</ul>
+					<span class="list-hidden">目录</span>
+				</div>
+				
+			</div>
+			<!-- list over -->
+			
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-
-      <p><a href="https://github.com/hopepine" class="avatar"><img src="https://1.gravatar.com/avatar/b9d0f71d27fda2669bd3187133f38bbb?d=https%3A%2F%2Fidenticons.github.com%2Ff3219de05d539f40d56487ebf5a9ee60.png&amp;r=x&amp;s=60" width="48" height="48"/></a>View <a href="https://github.com/hopepine">hopepine</a> on <a href="https://www.github.com">GitHub</a></p>
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/hopepine/hopepine.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/hopepine/hopepine.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+			
+			<!-- content begin -->
+			<div class="main">
+			
+			<div class="content">
+				<div class="article-image">
+					<img src="images/pic.jpg"/>
+					<div class="article-content">
+						<div class="article-title">
+							<a href="#"><h1>军训纪念</h1></a>
+							<div class="article-time">2012-01-11</div>
+						</div>
+						<p class="article-before">其实军训时走进自然的绝妙机会，一切自然美景都不会被电脑屏幕抢走你的目光。仅仅七月一号这一天，因为一场突来的大雨和雨后的大太阳，我们就看到了两个大自然的杰作……</P>
+					</div>
+				</div>
+				
+				<div class="article-image">
+					<img src="images/pic.jpg"/>
+					<div class="article-content">
+						<div class="article-title">
+							<a href="#"><h1>恩宁路一游</h1></a>
+							<div class="article-time">2011-11-09</div>
+						</div>
+						<p class="article-before">隔了一个星期才后期，确实不太好，对当时的画面的记忆有点模糊了，好像处理得略糟。那天中午去看望奶奶，因为想到奶奶家离恩宁路比较近，所以就把相机给带上了……</P>
+					</div>
+				</div>
+				
+				<div class="article-image">
+					<img src="images/pic.jpg"/>
+					<div class="article-content">
+						<div class="article-title">
+							<a href="#"><h1>网页设计新趋势！</h1></a><div class="article-time">2013-11-11</div>
+						</div>
+						<p class="article-before">响应式设计是当前网页设计的趋势，针对不同的设备，提供布局解决方案。而且很多技术狂人正在不断的进行各种实验，争取让响应式设计越来越好……</P>
+					</div>
+				</div>
+	
+				
+				<div class="article-image">
+					<img src="images/pic.jpg"/>
+					<div class="article-content">
+						<div class="article-title">
+							<a href="#"><h1>网页设计新趋势！</h1></a><div class="article-time">2013-11-11</div>
+						</div>
+						<p class="article-before">响应式设计是当前网页设计的趋势，针对不同的设备，提供布局解决方案。而且很多技术狂人正在不断的进行各种实验，争取让响应式设计越来越好……</P>
+					</div>
+				</div>
+				
+				<div class="article-image">
+					<img src="images/pic.jpg"/>
+					<div class="article-content">
+						<div class="article-title">
+							<a href="#"><h1>军训纪念</h1></a><div class="article-time">2012-01-11</div>
+						</div>
+						<p class="article-before">其实军训时走进自然的绝妙机会，一切自然美景都不会被电脑屏幕抢走你的目光。仅仅七月一号这一天，因为一场突来的大雨和雨后的大太阳，我们就看到了两个大自然的杰作……</P>
+					</div>
+				</div>
+				
+				<div class="article-image">
+					<img src="images/pic.jpg"/>
+					<div class="article-content">
+						<div class="article-title">
+							<a href="#"><h1>使用Adobe Kuler…</h1></a><div class="article-time">2013-11-11</div>
+						</div>
+						<p class="article-before">让我们走近下面这个能帮助设计师节约时间且功能强大的产品--Adobe Kuler。在Kuler网站上，我们将会会学习到如何发现颜色群，以这些颜色创建一个色彩主题并分享它，以及在photshop cs4的扩展中如何快速的使用这些内容。什么是Kuler？Kuler是一个基于网络的应用，它提供免费的色彩主题，我们可以在任何作品上使用它们（不会有版权问题）。下面这篇文章能让我们获得更多关于Adobe Kuler的信息和使用方法……</P>
+					</div>
+				</div>				
+			</div>
+			<!-- content over -->
+			
+			<div class="clear"></div>
+			<!-- paging begin -->
+			<div class="paging">
+				<div class="paging-center">
+					<ul>
+						<li class="pading-sign"><a href="#">&lt;</a></li>
+						<li class="pading-sign"><a href="#" class="sign-selected">1</a></li>
+						<li class="pading-sign"><a href="#">2</a></li>
+						<li class="pading-sign"><a href="#">3</a></li>
+						<li class="pading-sign"><a href="#">4</a></li>
+						<li class="pading-sign"><a href="#">5</a></li>
+						<li class="pading-sign"><a href="#">&gt;</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- paging over -->
+			</div>
+		</div>
+		<!-- container over-->
+		
+	</body>
 </html>
