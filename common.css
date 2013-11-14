@@ -253,7 +253,7 @@ body{
 	background-color:#9f8962;
 	color:#fff;
 }
-@media (max-width:1020px){
+@media	screen and (max-width:1020px){
 	.header-center{
 		width:100%;
 	}
@@ -266,7 +266,7 @@ body{
 		font-size:16px;
 	}
 }
-@media (max-width:760px){
+@media screen and (max-width:760px){
 	html{
 		font-size:14px;
 	}
@@ -298,7 +298,7 @@ body{
 	}
 }
 
-@media (max-width:520px){
+@media screen and (max-width:520px){
 	.catalogue{
 		position:relative;
 		width:100%;	
@@ -342,7 +342,7 @@ body{
 	}
 	
 }
-@media (max-width:360px){
+@media screen and (max-width:360px){
 	.head-image{
 		margin:0 5px 0 35px;
 		width:auto;
@@ -353,7 +353,7 @@ body{
 		margin-left:0;
 	}
 }
-@media (max-width:290px){
+@media screen and (max-width:290px){
 	.share{
 		display:none;
 	}
