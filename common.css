@@ -223,8 +223,10 @@ body{
 .article-title a{
 	padding:0.3125em;
 	display:block;
+	text-align:center;
 }
 .article-title a:hover{
+	color:#fff;
 	background:#333;
 }
 .article-time{
