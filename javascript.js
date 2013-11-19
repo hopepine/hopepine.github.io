@@ -31,6 +31,16 @@
 				share.style.display="none";	
 			}
 		}
+		bar.onclick=function(){
+			if(document.body.clientWidth<=480){
+				if(share.style.display=="none"){
+					share.style.display="block";
+				}
+				else{
+					share.style.display="none";
+				}
+			}
+		}
 		
 		/*点击首页*/
 		var list1=document.getElementById("list1");
@@ -46,7 +56,7 @@
 			else{
 				box.style.display="none";
 				main.style.display="block";
-				calHeight.style.height="500px"
+				calHeight.style.height="0px"
 			}
 		}
 		else{
