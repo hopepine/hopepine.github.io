@@ -5,7 +5,12 @@
 		if(document.documentElement.clientHeight<=boxHeight){
 			var mainHeight=document.getElementById("main").clientHeight;
 			var calHeight=document.getElementById("catalogue");
-			calHeight.style.height=mainHeight+"px";
+			if(document.body.clientWidth<=480){
+				calHeight.style.height="500px";
+			}
+			else{
+				calHeight.style.height=mainHeight+"px";
+			}
 			calHeight.style.position="absolute";
 		}
 		
@@ -41,7 +46,7 @@
 			else{
 				box.style.display="none";
 				main.style.display="block";
-				calHeight.style.height="0px"
+				calHeight.style.height="500px"
 			}
 		}
 		else{
