@@ -22,14 +22,17 @@
 			share.style.display="block";
 		}
 		share.onmouseout=function(){
-			share.style.display="none";					
+			if(document.body.clientWidth<=480){	
+				share.style.display="none";	
+			}
 		}
 		
 		/*点击首页*/
 		var list1=document.getElementById("list1");
 		var box=document.getElementById("box");
-		var main=document.getElementById("main")
+		var main=document.getElementById("main");
 		list1.onclick=function(){
+		if(document.body.clientWidth<=480){
 			if(box.style.display=="none"){
 				box.style.display="block";
 				main.style.display="none";
@@ -40,6 +43,12 @@
 				main.style.display="block";
 				calHeight.style.height="0px"
 			}
+		}
+		else{
+			box.style.display="block";
+			main.style.display="block";
+			calHeight.style.height="100%"
+		}
 		}
 		
 		/*图片变色*/
