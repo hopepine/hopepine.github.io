@@ -470,7 +470,7 @@ body{
 		left:20%;
 	}
 	.head-image{
-		margin:0 5px 0 5px;
+		margin:0 10px 0 10px;
 		width:auto;
 		text-align:center;
 	}
@@ -479,7 +479,7 @@ body{
 		margin-left:0;
 	}
 }
-@media (max-width:360px){
+@media (max-width:300px){
 	.name{
 		font:800 3em Arial,Tahoma,SimSun,Sans-serif;
 	}
